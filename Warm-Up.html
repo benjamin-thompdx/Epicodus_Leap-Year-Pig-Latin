@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="css/styles.css" type="text/css">
+    <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
+    <script src="js/scripts.js"></script>
+    <script src="js/jquery-3.4.1.js"></script>
+    <title>Leap Year Pig Latin</title>
+  </head>
+  <body>
+    <p><strong>Goal:</strong> Focus on breaking your project down into small behavior examples and coding one behavior (also known
+      as a "specification" or "spec") at a time. Make a list of specifications with input and output examples before
+      writing any code. Also, as our projects grow in size, continue to practice good organization by keeping business
+      logic and user interface logic distinctly separate.</p>
+    <h2 class="bg-primary text-white">Warm Up</h2>
+    <p>Pretend you have an application that counts the number of vowels in a string. This application has specs
+      detailing each behavior it must exhibit. However, they're out of order! Reorder the following list of specs from
+      the simplest possible behavior to the most complex behavior with your partner. Consult with other pairs, if
+      necessary:</p>
+    <ul class="warmUp">
+      <li>The program recognizes a single vowel.</li>
+      <ul>
+        <li>Input Example: "a"</li>
+        <li>Output Example: 1</li>
+      </ul>
+      <li>The program recognizes a single vowel, regardless of case.</li>
+      <ul>
+        <li>Input Example: "A"</li>
+        <li>Output Example: 1</li>
+      </ul>
+      <li>The program recognizes a single vowel in a multiple-character word.</li>
+      <ul>
+        <li>Input Example: "cat"</li>
+        <li>Output Example: 1</li>
+      </ul>
+      <li>The program recognizes multiple vowels in a single word.</li>
+      <ul>
+        <li>Input Example: "cater"</li>
+        <li>Output Example: 2</li>
+      </ul>
+      <li>The program recognizes vowels in a multiple-word sentence.</li>
+      <ul>
+        <li>Input Example:"cats catered the event"</li>
+        <li>Output Example: 7</li>
+      </ul>
+      <li>The program recognizes vowels in a multiple-word sentence, regardless of capitalization.</li>
+      <ul>
+        <li>Input Example: "CATS CATERED THE EVENT"</li>
+        <li>Output Example: 7</li>
+      </ul>
+      <li>The program recognizes all vowels in a multiple-word sentence, regardless of inconsistent capitalization.
+      </li>
+      <ul>
+        <li>Input Example: "CaTS CATEReD ThE EveNT"</li>
+        <li>Output Example: 7</li>
+      </ul>
+      <li>The program ignores non-alphabetical characters, since they cannot be vowels.</li>
+      <ul>
+        <li>Input Example: "4%"</li>
+        <li>Output Example: 0</li>
+      </ul>
+    </ul>
+    <h2 class="bg-primary text-white">Code</h2>
+    <h3>Leap Year</h3>
+    <p>Follow along with the leap year lessons to build an application that identifies whether a given year is a leap year. Make each of the specs detailed in the leap year lessons "pass" (ie: your program returns the expected output for the expected input).</p>
+    <h4>Specs from Leap Year Lessons</h4>
+    <ul class="warmUp">
+      <li>The program should return when a year is not a leap year.</li>
+      <ul>
+        <li>Input Example: 1993</li>
+        <li>Output Example: fales</li>
+        <img src="images/not-leap-year.png" alt="">
+      </ul>
+      <li>The program should return 'true' for years divisible by 4, since those are leap years.</li>
+      <ul>
+        <li>Input Example: 2004</li>
+        <li>Output Example: true</li>
+        <img src="images/divisible-by-4.png" alt="">
+      </ul>
+      <li>The program should return 'false' for years divisible by 100, since those are not leap years.</li>
+      <ul>
+        <li>Input Example: 1900</li>
+        <li>Output Example: false</li>
+        <img src="images/divisible-by-100.png" alt="">
+      </ul>
+      <li>The program should return 'true' for years divisible by 400, since those are leap years.</li>
+      <ul>
+        <li>Input Example: 2000</li>
+        <li>Output Example: true</li>
+        <img src="images/divisible-by-400.png" alt="">
+      </ul>
+    </ulclass="warmUp">
+  </body>
+</html>
